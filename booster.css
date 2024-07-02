@@ -1,1 +1,50 @@
+body {  
+  background: var(--fond); } 
 
+/* VARIABLE DU MODE PAR DEFAUT */  
+:root {
+   color-scheme: light;
+   --neutral: #fff;
+   --accentClr: blue;
+  --fond : #95a4bc;
+  --fond2 : #f7f4f3;
+  --fond-inside : #ebe8f1;
+  --fond-titres : #FBFBFA;
+  --text-titres1 : #7796C6;
+  --text-titres2 : #CEA58C;
+  --titrecateg : #95a4bc;
+  --text-basique : #fff;
+  --fonttexte: Playfair Display; 
+  --font-basique : Tahoma;
+  --fontinterne:#000;
+  --trait : #f8f8f8;
+  --taille-font : 12.5px;
+  --arrows: peachpuff;
+  --footer-color:#7898c9; 
+
+.boite11 { position : relative;}  
+a:link, a:visited, a:hover, a:active {text-decoration: none;           color : var(--text-titres1); text-transform:uppercase;}      
+
+.boiboite { 
+  width: 185px; 
+  height: 275px; 
+  background-color: var(--fond-inside);
+  border: 1px solid var(--fond-inside); 
+  position : absolute; 
+  right: -5px; 
+  top: 2px;
+}  
+
+.titre_boiboite {  
+  font-family: 'Playfair Display', serif;   
+  font-size:18px;  
+  text-transform : lowercase;    
+  color: var(--text-titres2); 
+  width: 170px; 
+  margin-left: 10px; 
+  border-bottom: 1px dashed var(--text-titres2); 
+  text-align: center; 
+  overflow: auto; 
+} 
+
+.corps_boiboite { padding-top: 5px; text-align: center; font-size: 12px; color: #858383; font-family : Trebuchet MS;}
